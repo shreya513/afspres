@@ -9,7 +9,7 @@ const App: React.FC = () => {
         <h1 className="text-3xl font-bold text-center font-mono">Shreya's Experiences at AFS</h1>
       </header>
       <main style={{marginTop: '4rem' }}>
-        <div className="container w-full mx-auto bg-gray-200" style={{maxWidth: '1200px'}}>
+        <div className="container w-full mx-auto " style={{maxWidth: '1200px', background: '#ffffff'}}>
           <Bio />
           <Timeline />
         </div>

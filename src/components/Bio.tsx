@@ -3,7 +3,8 @@ import React from 'react';
 
 const Bio: React.FC = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center p-8 bg-gray-200 border">
+    <div className="flex flex-wrap items-center justify-center p-8 " style={{background: '#bdc8d5'}}> 
+    {/* style={{ background: '#ede4f3'}} */}
       <div className="w-full md:w-1/2 p-4">
         <img
           src="image.JPG" // Update this path to your image
