@@ -9,6 +9,7 @@ interface TimelineEventProps {
     title: string;
     description: string;
     bgColor: string;
+    image?: string;
   };
 }
 
@@ -21,7 +22,8 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ event }) => {
       </div>
       <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4" style={{background: "#faf0e6"}}>
         <h3 className="mb-3 font-bold text-xl" style={{color: "#5a2e94"}}>{event.title}</h3>
-        <p className="text-sm leading-snug tracking-widetext-opacity-100" style={{color: "#5a2e94"}}>{event.description}</p>
+        {event.image && (<img src={event.image} alt={event.title} className="mt-3 w-full h-auto rounded-lg shadow-md"/>)}
+        <p className="text-sm leading-snug tracking-widetext-opacity-100 " style={{color: "#5a2e94", paddingTop: '0.6rem', textAlign: "justify"}}>{event.description}</p>
       </div>
     </div>
   );
