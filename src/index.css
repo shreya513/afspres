@@ -200,7 +200,7 @@
     justify-content: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     .header-title {
       font-size: 0.85rem; /* Smaller font size on small screens */
     }
