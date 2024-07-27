@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <div className="app-container">
       <header className="header">
-        <h1 className="header-title" onClick={scrollToTop}>AFS</h1>
+        <h1 className="header-title" onClick={scrollToTop}>Shreya's Experiences at AFS</h1>
         <nav className="nav-links">
           <a href="#bio" className="nav-link">About Me</a>
           <a href="#timeline" className="nav-link">Experiences</a>
