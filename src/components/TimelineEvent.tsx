@@ -15,15 +15,15 @@ interface TimelineEventProps {
 
 const TimelineEvent: React.FC<TimelineEventProps> = ({ event }) => {
   return (
-    <div className={`mb-8 flex justify-between ${event.side === 'left' ? 'flex-row-reverse' : ''} items-center w-full ${event.side}-timeline`}>
-      <div className="order-1 w-5/12"></div>
-      <div className="z-0 flex items-center order-1 shadow-xl w-8 h-8 rounded-full" style={{background: "#5a2e94"}}>
-        <h1 className="mx-auto font-semibold text-lg" style={{color: "#faf0e6"}}>{event.number}</h1>
+    <div className={`timeline-event ${event.side}-side`}>
+      <div className="event-num-container"></div>
+      <div className="event-num-circle">
+        <h1 className="event-num-text">{event.number}</h1>
       </div>
-      <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4" style={{background: "#faf0e6"}}>
-        <h3 className="mb-3 font-bold text-xl" style={{color: "#5a2e94"}}>{event.title}</h3>
-        {event.image && (<img src={event.image} alt={event.title} className="mt-3 w-full h-auto rounded-lg shadow-md"/>)}
-        <p className="text-sm leading-snug tracking-widetext-opacity-100 " style={{color: "#5a2e94", paddingTop: '0.6rem', textAlign: "justify"}}>{event.description}</p>
+      <div className="event-box">
+        <h3 className="event-title-text">{event.title}</h3>
+        {event.image && (<img src={event.image} alt={event.title} className="event-img"/>)}
+        <p className="event-dsc-text">{event.description}</p>
       </div>
     </div>
   );
