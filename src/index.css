@@ -53,6 +53,7 @@
     color: #5a2e94;
     transition: text-decoration 0.3s ease;
     align-items: center;
+    text-align: center;
   }
 
   .nav-link:hover {
@@ -71,7 +72,7 @@
 
   .timeline-section {
     background-color: #bdacd1;
-    scroll-margin-top: 3.5rem;
+    scroll-margin-top: 3.75rem;
     width: 100%;
     margin: 0;
   }
@@ -82,24 +83,25 @@
     justify-content: center;
     min-height: 100vh;
     background-position: top center;
-    padding: 2.5rem;
-    background-size: cover;
-    background-image: url(img3.JPG);
+    padding: 2rem;
   }
 
   .bio-text-box {
-    padding: 2rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
     border-radius: 0.5rem;
     text-align: center;
-    max-width: 32rem;
+    max-width: 90%;
     background-color: #faf0e6;
     opacity: 0.7;
-    box-shadow: 0 10pm 15pm -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
   }
 
   .bio-text {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 1.05rem;
+    line-height: 1.5rem;
   }
 
   .timeline-container {
@@ -146,11 +148,18 @@
   }
 
   .event-title-text {
-    margin-bottom: 0.75rem;
     font-size: 1.25rem;
     line-height: 1.75rem;
     color: #5a2e94;
     font-weight: 700;
+    text-align: center;
+  }
+
+  .event-date-text {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #5a2e94;
     text-align: center;
   }
 
@@ -200,9 +209,48 @@
     justify-content: center;
   }
 
+  .break {
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 1000px) {
+    .bio-text-box {
+      max-width: 100%;
+      padding: 1rem;
+    }
+    .bio-text {
+      font-size: 0.95rem;
+      line-height: 1.2rem;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .bio-container {
+      padding: 1rem;
+    }
+    .bio-text-box {
+      max-width: 100%;
+      padding: 0.8rem;
+    }
+    .bio-text {
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+  }
+
   @media (max-width: 480px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
     .header-title {
-      font-size: 0.85rem; /* Smaller font size on small screens */
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    .nav-links {
+      justify-content: center;
+      margin: 0;
     }
   
     .nav-link {
@@ -211,6 +259,8 @@
       padding-right: 0.35rem;
       padding-top: 0.25rem;
       padding-bottom: 0.25rem;
+      text-align: center;
+      display: inline-block;
     }
 
     .main-section {
@@ -218,21 +268,25 @@
     }
 
     .timeline-section {
-      scroll-margin-top: 3rem;
+      scroll-margin-top: 4.4rem;
     }
 
     .timeline-container {
       padding: 1.2rem;
     }
+
+    .bio-container {
+      padding: 1rem;
+    }
   
     .bio-text-box {
       max-width: 100%;
-      padding: 1.3rem;
+      padding: 0.8rem;
     }
 
     .bio-text {
-      font-size: 1rem;
-      line-height: 1.55rem;
+      font-size: 0.75rem;
+      line-height: 0.95rem;
     }
 
     .timeline-event {
@@ -252,7 +306,7 @@
 
     .event-box {
       width: 100%;
-      max-width: 89%;
+      max-width: 85%;
       margin-bottom: 0.5rem;
       padding-left: 1rem;
       padding-right: 1rem;
@@ -261,9 +315,16 @@
     }
 
     .event-title-text {
-      margin-bottom: 0.6rem;
+      margin-top: 0.1rem;
+      margin-bottom: 0rem;
       font-size: 0.85rem;
-      line-height: 1rem;
+      line-height: 0.8rem;
+    }
+
+    .event-date-text {
+      margin-bottom: 0.33rem;
+      font-size: 0.75rem;
+      line-height: 1.1rem;
     }
 
     .event-dsc-text {

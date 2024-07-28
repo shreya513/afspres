@@ -4,11 +4,9 @@ interface TimelineEventProps {
   event: {
     side: string;
     number: number;
-    color: string;
-    textColor: string;
     title: string;
+    date: string;
     description: string;
-    bgColor: string;
     image?: string;
   };
 }
@@ -22,6 +20,7 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ event }) => {
       </div>
       <div className="event-box">
         <h3 className="event-title-text">{event.title}</h3>
+        <h3 className="event-date-text">{event.date}</h3>
         {event.image && (<img src={event.image} alt={event.title} className="event-img"/>)}
         <p className="event-dsc-text">{event.description}</p>
       </div>
