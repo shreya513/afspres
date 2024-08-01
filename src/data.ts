@@ -62,26 +62,33 @@ export const timelineData = [
   {
     side: 'right',
     number: 9,
+    title: 'Meeting my AFS Supervisor: Richard Lord',
+    date: 'June 20th, 2024',
+    description: "",
+  },
+  {
+    side: 'left',
+    number: 9,
     title: 'Meeting my MD sponsor: Maureen Brown',
     date: 'June 21st, 2024',
     description: "",
   },
   {
-    side: 'left',
+    side: 'right',
     number: 10,
     title: 'Exploring GenAI Projects With Jay Chung',
     date: 'June 25th, 2024',
     description: "",
   },
   {
-    side: 'right',
+    side: 'left',
     number: 11,
     title: 'Week 5: Project Work',
     date: 'July 1st - 5th, 2024',
     description: "",
   },
   {
-    side: 'left',
+    side: 'right',
     number: 12,
     title: 'Student Leadership Conference at St. Charles, Illinois',
     date: 'July 12th - 14th, 2024',
@@ -89,7 +96,7 @@ export const timelineData = [
     image: 'slc.JPG'
   },
   {
-    side: 'right',
+    side: 'left',
     number: 13,
     title: 'Week 7: Project Work',
     date: 'July 15th - 19th, 2024',
@@ -97,7 +104,7 @@ export const timelineData = [
     image: 'img.JPG'
   },
   {
-    side: 'left',
+    side: 'right',
     number: 14,
     title: 'Metro DC Office Welcome Event',
     date: 'July 17th, 2024',
@@ -105,7 +112,7 @@ export const timelineData = [
     image: 'metrodc.JPG'
   },
   {
-    side: 'right',
+    side: 'left',
     number: 15,
     title: "Leading a WERG, Women's ERG Event",
     date: 'July 18th, 2024',
@@ -113,21 +120,21 @@ export const timelineData = [
     image: 'img.JPG'
   },
   {
-    side: 'left',
+    side: 'right',
     number: 16,
     title: 'Reconnecting with my MD Sponsor, Maureen',
     date: 'July 18th, 2024',
     description: "",
   },
   {
-    side: 'right',
+    side: 'left',
     number: 17,
     title: "Leadership Hot Ones Challenge",
     date: 'July 18th, 2024',
     description: "",
   },
   {
-    side: 'left',
+    side: 'right',
     number: 18,
     title: 'Nationals Game',
     date: 'July 23rd, 2024',
@@ -135,7 +142,7 @@ export const timelineData = [
     image: 'nats.JPG'
   },
   {
-    side: 'right',
+    side: 'left',
     number: 19,
     title: "Forge Workshop",
     date: 'July 25th, 2024',
@@ -143,7 +150,7 @@ export const timelineData = [
     image: 'xr.JPG'
   },
   {
-    side: 'left',
+    side: 'right',
     number: 20,
     title: 'S&C Summer Social',
     date: 'July 25th, 2024',
@@ -151,10 +158,40 @@ export const timelineData = [
     image: 's&c_social.JPG'
   },
   {
-    side: 'right',
+    side: 'left',
     number: 21,
     title: "AFS Health Portfolio Lunch & Learn",
     date: 'July 26th, 2024',
     description: "",
   },
+  {
+    side: 'right',
+    number: 22,
+    title: "Ron Ash's Journey Line",
+    date: 'July 29th, 2024',
+    description: "",
+    image: ''
+  },
+  {
+    side: 'left',
+    number: 23,
+    title: "TSA Innovation Day",
+    date: 'July 30th, 2024',
+    description: "",
+  },
+  {
+    side: 'right',
+    number: 24,
+    title: 'Meeting with Danny Cooper: Accenture Leadership',
+    date: 'July 31st, 2024',
+    description: ""
+  },
+  {
+    side: 'left',
+    number: 25,
+    title: "Meeting with Nathan Fleming: Business Process Arch Senior Manager",
+    date: 'August 1st, 2024',
+    description: "",
+  },
+  
 ];

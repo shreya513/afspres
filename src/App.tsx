@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div className="app-container">
       <header className="header">
-      <a href="#home" className="header-title">Shreya's Experiences at AFS</a>
+      <a href="#home" className="header-title">Shreya's AFS Summer Analyst Experience</a>
       <nav className="nav-links">
         <a href="#bio" className="nav-link">About Me</a>
         <a href="#timeline" className="nav-link">Experiences</a>
