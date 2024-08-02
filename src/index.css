@@ -22,10 +22,10 @@
   }
 
   .header-title {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: bold;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Verdana';
     margin-left: 1rem;
     color: #5a2e94;
     transition: text-decoration 0.3s ease;
@@ -44,8 +44,9 @@
   }
 
   .nav-link {
-    font-size: 1.125rem;
-    font-family: monospace;
+    font-size: 1.16rem;
+    font-weight: bold;
+    font-family: 'Verdana';
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     padding-top: 0.25rem;
@@ -102,6 +103,7 @@
   .bio-text {
     font-size: 1.05rem;
     line-height: 1.5rem;
+    font-family: Verdana;
   }
 
   .timeline-container {
@@ -148,29 +150,32 @@
   }
 
   .event-title-text {
-    font-size: 1.25rem;
+    font-size: 1.22rem;
     line-height: 1.75rem;
     color: #5a2e94;
     font-weight: 700;
     text-align: center;
+    font-family: Verdana;
   }
 
   .event-date-text {
     margin-bottom: 0.6rem;
-    font-size: 1rem;
+    font-size: 0.97rem;
     line-height: 1.1rem;
     color: #5a2e94;
     text-align: center;
+    font-family: Verdana;
   }
 
   .event-dsc-text {
-    font-size: 0.875rem;
+    font-size: 0.87rem;
     line-height: 1.375rem;
     color: #5a2e94;
     padding-top: 0.6rem;
     text-align: center;
     letter-spacing: 0.025em;
     --tw-text-opacity: 1;
+    font-family: Verdana;
   }
 
   .event-img {
