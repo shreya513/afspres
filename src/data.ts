@@ -162,12 +162,12 @@ export const timelineData = [
     title: "Ron Ash's Journey Line",
     date: 'July 29th, 2024',
     description: "We had the privilege of hearing from our new CEO, Ron Ash, who shared invaluable advice and insights. He took us through the pivotal moments and challenges that shaped his career, and gave us great advice as we start our careers. After hearing his initiatives for AFS, I am incredibly inspired and motivate for the future!",
-    image: ''
+    image: 'ron_pres.JPG'
   },
   {
     side: 'right',
     number: 22,
-    title: "TSA Innovation Day",
+    title: "TSA Intern Innovation Day",
     date: 'July 30th, 2024',
     description: "It was a really exciting experience attending the TSA Innovation Day for interns, featuring demos on the application of XR and AI technologies in the government space. I loved asking questions about the real-time voice detection and comprehension incorporated in the presented technology and the possibility of sentiment analysis or 3D object segmentation in future TSA technology. It was fascinating to hear from experts in the field and witness advanced technologies tested for deployment!",
   },
@@ -176,14 +176,14 @@ export const timelineData = [
     number: 23,
     title: 'Meeting with Danny Cooper: Accenture Leadership',
     date: 'July 31st, 2024',
-    description: ""
+    description: "Had a great conversation with Danny Cooper about AFS' salesforce initiatives, and received great advice: invest in yourself and strive to be an expert in what you do, have an entrepreneurial and creative mindset, and find opportunitities that create value for the clients. I really enjoyed learning about his experiences and hearing his advice, especially as someone who will be starting on my career path soon!"
   },
   {
     side: 'right',
     number: 24,
     title: "Meeting with Nathan Fleming: Business Process Arch Senior Manager",
     date: 'August 1st, 2024',
-    description: "",
+    description: "Connected with Nathan Flemming in an informative discussion on some of AFS' oracle projects, the various developer roles at AFS, and realizing the importance of learning to work autonomously. I gained a deeper understanding of the technical projects and roles at AFS with Nathan.",
   },
   
 ];
