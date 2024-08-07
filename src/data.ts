@@ -161,7 +161,7 @@ export const timelineData = [
     number: 22,
     title: "Ron Ash's Journey Line",
     date: 'July 29th, 2024',
-    description: "We had the privilege of hearing from our new CEO, Ron Ash, who shared invaluable advice and insights. He took us through the pivotal moments and challenges that shaped his career, and gave us great advice as we start our careers. After hearing his initiatives for AFS, I am incredibly inspired and motivate for the future!",
+    description: "We had the privilege of hearing from our new CEO, Ron Ash, who shared invaluable advice and insights. He took us through the pivotal moments and challenges that shaped his career, and gave us great advice as we start our careers. After hearing his initiatives for AFS, I am incredibly inspired and motivated for the future!",
     image: 'ron_pres.JPG'
   },
   {
