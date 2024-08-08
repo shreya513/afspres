@@ -106,7 +106,7 @@
     font-family: Verdana;
   }
 
-  a {
+  p a {
     text-decoration: underline;
   }
 
@@ -247,7 +247,7 @@
     }
   }
 
-  @media (max-width: 650px) {
+  @media (max-width: 750px) {
     .bio-container {
       padding: 1rem;
     }
@@ -304,7 +304,7 @@
     }
 
     .bio-container {
-      padding: 1rem;
+      padding: 0.5rem;
     }
   
     .bio-text-box {
@@ -317,7 +317,7 @@
       line-height: 0.95rem;
     }
     .contact-text {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       line-height: 0.95rem;
       padding-top: 0.3rem;
     }

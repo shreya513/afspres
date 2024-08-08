@@ -19,7 +19,7 @@ export const timelineData = [
     number: 3,
     title: 'ERG Showcase',
     date: 'June 5th, 2024',
-    description: "Joining the ERG showcase presentation introduced me to the diverse communities at AFS. It's amazing to be in an environment that fosters inclusivity and supports employees in bring their authentic selves to work. I joined the Women's, DCAAT, Interfaith, and other ERGs.",
+    description: "Joining the ERG showcase presentation introduced me to the diverse communities at AFS. It's amazing to be in an environment that fosters inclusivity and supports employees in bringing their authentic selves to work. I joined the Women's, DCAAT, Interfaith, and other ERGs.",
     image: 'erg.JPG',
   },
   {
