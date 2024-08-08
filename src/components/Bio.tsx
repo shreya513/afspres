@@ -14,6 +14,9 @@ const Bio: React.FC = () => {
           traveling!<br className="break"></br>
           This summer, I've had an incredible journey full of growth, adventure, and amazing people. This timeline showcases the highlights of my experiences! :)
         </p>
+        <p className="contact-text">
+          Email: shreyajoshi777@gmail.com | <a href="https://www.linkedin.com/in/shreyaj77">LinkedIn</a> | <a href="https://github.com/shreya513">GitHub</a>
+        </p>
       </div>
     </div>
   );
